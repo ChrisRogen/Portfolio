@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <script src="./Scripts/angular.min.js"></script>
+    <script src="./angular-main.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body ng-app="myApp" ng-controller="ctl">
+    <header class="header">
+      <a href="#home" class="logo">Chris <span>Rogen</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#project">Project</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <section class="homr" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Rogen</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-gmail"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Resume CV</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./image/img/profile/Profile.png" alt="Error 404" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2019</div>
+          <div class="timeline-content">
+            <div class="timeline-content-box">
+              <h3>DAV BHEL School</h3>
+              <p>
+                DAV BHEL School, Ranipet, spanning from 1st to 10th grade. With
+                a rating of 10 out of 10 for its enriching educational
+                environment, this study explores the profound impact of holistic
+                learning experiences. Through rigorous academic curriculum,
+                nurturing teachers, and vibrant extracurricular activities,
+                students undergo a metamorphosis, evolving into well-rounded
+                individuals equipped with knowledge, skills, and values
+                essential for success. This journey serves as a testament to the
+                school's commitment to fostering excellence and shaping future
+                leaders.
+              </p>
+            </div>
+
+            <div class="timeline-image1">
+              <img src="./image/img/Education/DAV-BHEL-School-Ground.jpg" alt="Error 404" />
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <div class="timeline-content-box">
+              <h3>SUNBEAM School</h3>
+              <p>
+                This abstract encapsulates my transformative journey at Sunbeam
+                School, Vellore, during 11th and 12th grade in the
+                Bio-Mathematics stream. Through a rigorous curriculum and
+                dedicated faculty support, I've flourished in an environment
+                that nurtures intellectual curiosity and critical thinking.
+                Sunbeam's holistic approach has equipped me with the skills and
+                confidence needed for future academic and professional
+                endeavors.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-image">
+            <img
+              src="./image/img/Education/sunbeam_schools_cover_top_view.jpeg"
+              alt="Error 404"
+            />
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <div class="timeline-content-box">
+              <h3>KaaShiv Infotech</h3>
+              <p>
+                During my one-month summer internship at Kaasiv Infotech in
+                Chennai, I had the opportunity to immerse myself deeply in the
+                realm of Ethical Hacking. Guided by seasoned professionals, I
+                engaged in hands-on learning experiences, confronting real-world
+                cybersecurity challenges head-on. This intensive internship not
+                only sharpened my technical acumen but also instilled in me a
+                profound sense of responsibility and ethical conduct within the
+                cybersecurity domain. Through practical application and
+                mentorship, I gained valuable insights into industry practices,
+                further fueling my passion for ethical hacking.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-image">
+            <img src="./image/img/Education/Kaashiv_Logo.jpg" alt="Error 404" />
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <div class="timeline-content-box">
+              <h3>Karunya Univercity</h3>
+              <p>
+                As a fourth-year B.Tech student specializing in Cybersecurity,
+                my journey has been a testament to continuous learning and
+                growth. Positioned at the threshold of graduation, I stand ready
+                to embark on the next phase of my career through placement and
+                internships. Equipped with a robust academic background and
+                practical experience gained through coursework and projects, I
+                am prepared to apply my skills and knowledge to real-world
+                challenges. My journey underscores the importance of
+                adaptability, resilience, and dedication in pursuing excellence
+                in the dynamic field of cybersecurity.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-image">
+            <img src="./image/img/Education/Karunya_top_view.jpg" alt="Error 404" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2 class="heading">Searvices</h2>
+
+      <div class="services-continer">
+        <div class="service-box">
+          <div class="service-info">
+            <div class="service-design">
+              <div class="service-line">              
+              <img src="./image/img/service-line/Herizontal-line.png" alt="H-line" class="h-line">
+              <img src="./image/img/service-line/vertival-line.png" alt="v-line" class="v-line">
+              </div>
+              <h4>Full-Stack Developer</h4>
+              <table border="0" >
+                <tr>
+                  <th class="skill">
+                    <h3>Skill</h3>
+                  </th>
+                  <th class="tools">
+                    <h3>Tools</h3>
+  
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Portfolio</li>
+                      <li>Web Page</li>
+                      <li>Web Application</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ol>
+                      <li>
+                        <div class="service-logo">
+                          <img src="./image/img/service-logo/Full-Stack/Html.webp" alt="HTML">
+                          <img src="./image/img/service-logo/Full-Stack/Css.webp" alt="CSS">
+                          <img src="./image/img/service-logo/Full-Stack/tailwind.png" alt="tailwind">
+                          <img src="./image/img/service-logo/Full-Stack/bootstrap.png" alt="Bootstrap">
+                          <img src="./image/img/service-logo/Full-Stack/Javascript.png" alt="Javascript">
+                          <img src="./image/img/service-logo/Full-Stack/jquery.png" alt="jquery">
+                          <img src="./image/img/service-logo/Full-Stack/angular js.png" alt="angular">
+                          <img src="./image/img/service-logo/Full-Stack/express-js.png" alt="express-js">
+                          <img src="./image/img/service-logo/Full-Stack/Next js.webp" alt="Next">
+                          <img src="./image/img/service-logo/Full-Stack/reactjs-badge.png" alt="reactjs-badge">
+                          <img src="./image/img/service-logo/Full-Stack/Node js.png" alt="Node">
+                          <img src="./image/img/service-logo/Full-Stack/Nodemon.png" alt="Nodemon">
+                          <img src="./image/img/service-logo/Full-Stack/Mongodb.png" alt="Mongodb">
+                          <img src="./image/img/service-logo/Full-Stack/My-SQL.jpg" alt="MYSQL">
+                          <img src="./image/img/service-logo/Full-Stack/Ngrock.avif" alt="Ngrock">
+                        </div>
+                      </li>
+                    </ol>
+                  </td>
+                </tr>
+  
+              </table>
+             </div>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+           <div class="service-design">
+            <div class="service-line">              
+            <img src="./image/img/service-line/Herizontal-line.png" alt="H-line" class="h-line">
+            <img src="./image/img/service-line/vertival-line.png" alt="v-line" class="v-line">
+            </div>
+            <h4>UI Designer</h4>
+            <table border="0" >
+              <tr>
+                <th class="skill">
+                  <h3>Skill</h3>
+                </th>
+                <th class="tools">
+                  <h3>Tools</h3>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>WebPage</li>
+                    <li>App UI</li>
+                    <li>Tempelate</li>
+                  </ul>
+                </td>
+                <td>
+                  <ol>
+                    <li>
+                      <div class="service-logo">
+                        <img src="./image/img/service-logo/UI Designer/Figma.png" alt="Figma">
+                        <img src="./image/img/service-logo/UI Designer/canva.png" alt="canva">
+                      </div>
+                    </li>
+                  </ol>
+                </td>
+              </tr>
+
+            </table>
+           </div>
+            <!-- <table>
+              <tr><th>Skill</th><th>Tools</th></tr>
+              <tr>
+                <td>
+                  <ul>
+                    
+                  </ul>
+                </td>
+                <td >
+                  <ul class="skill">
+                    <li> Figma</li>
+                  </ul>
+
+                </td>
+              </tr>
+            </table> -->
+            <!-- <p>
+              As a UI designer proficient in Figma, I offer comprehensive design
+              services to create visually stunning and user-friendly digital
+              experiences. My expertise encompasses the entire design process,
+              from wireframing and prototyping to high-fidelity mockups and
+              design implementation. Using Figma's collaborative features, I can
+              work closely with clients and stakeholders to iterate on designs
+              in real-time, ensuring alignment with project goals and user
+              needs. I specialize in creating responsive designs that adapt
+              seamlessly across devices and platforms, while also prioritizing
+              accessibility and usability. Whether it's designing websites,
+              mobile apps, or other digital interfaces, I am dedicated to
+              delivering designs that not only look great but also enhance the
+              overall user experience.
+            </p> -->
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <div class="service-design">
+              <div class="service-line">              
+              <img src="./image/img/service-line/Herizontal-line.png" alt="H-line" class="h-line">
+              <img src="./image/img/service-line/vertival-line.png" alt="v-line" class="v-line">
+              </div>
+              <h4>Linux</h4>
+              <table border="0" >
+                <tr>
+                  <th class="skill">
+                    <h3>Skill</h3>
+                  </th>
+                  <th class="tools">
+                    <h3>Tools</h3>
+  
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>network assesment</li>
+                      <li>network scanning</li>
+                      <li>Web assesment</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ol>
+                      <li>
+                        <div class="service-logo">
+                          <img src="./image/img/service-logo/Linux/aircrack-ng-logo.svg" alt="aircrack-ng">
+                          <img src="./image/img/service-logo/Linux/Ettercap.png" alt="Ettercap">
+                          <img src="./image/img/service-logo/Linux/Wireshark.webp" alt="Wireshark">
+                          <img src="./image/img/service-logo/Linux/burp suite.jpeg" alt="burp shuit">
+                          <img src="./image/img/service-logo/Linux/Z proxy.jpeg" alt="Z proxy">
+                          <img src="./image/img/service-logo/Linux/ngrok.avif" alt="ngrok">
+                        </div>
+                      </li>
+                    </ol>
+                  </td>
+                </tr>
+  
+              </table>
+             </div>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <div class="service-design">
+              <div class="service-line">              
+              <img src="./image/img/service-line/Herizontal-line.png" alt="H-line" class="h-line">
+              <img src="./image/img/service-line/vertival-line.png" alt="v-line" class="v-line">
+              </div>
+              <h4>Frontend Developer</h4>
+              <table border="0" >
+                <tr>
+                  <th class="skill">
+                    <h3>Skill</h3>
+                  </th>
+                  <th class="tools">
+                    <h3>Tools</h3>
+  
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Web Page</li>
+                      <li>Web Application</li>
+                      <li></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ol>
+                      <li>
+                        <div class="service-logo">
+                          <img src="./image/img/service-logo/Full-Stack/Html.webp" alt="HTML">
+                          <img src="./image/img/service-logo/Full-Stack/Css.webp" alt="CSS">
+                          <img src="./image/img/service-logo/Full-Stack/tailwind.png" alt="tailwind">
+                          <img src="./image/img/service-logo/Full-Stack/bootstrap.png" alt="Bootstrap">
+                          <img src="./image/img/service-logo/Full-Stack/Javascript.png" alt="Javascript">
+                          
+                        </div>
+                      </li>
+                    </ol>
+                  </td>
+                </tr>  
+              </table>
+             </div>
+        </div>
+
+        
+
+        
+          <!-- <div class="service-info"> 
+            <div class="service-design">
+              <div class="service-line">              
+              <img src="./image/img/service-line/Herizontal-line.png" alt="H-line" class="h-line">
+              <img src="./image/img/service-line/vertival-line.png" alt="v-line" class="v-line">
+              </div>
+              <h4>Frontend Developer</h4>
+              <table border="0" >
+                <tr>
+                  <th class="skill">
+                    <h3>Skill</h3>
+                  </th>
+                  <th class="tools">
+                    <h3>Tools</h3>
+  
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Web Page</li>
+                      <li>Web Application</li>
+                      <li></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ol>
+                      <li>
+                        <div class="service-logo">
+                          <img src="./image/img/service-logo/Figma.png" alt="Figma">
+                        </div>
+                      </li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>            
+          </div>             -->
+        
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div class="project-box">
+        <h2 class="heading">Project</h2>
+        <div class="wrapper">
+          <div class="project-item">
+            <img src="./image/img/project Logo/Python hand.png" alt="" />
+            <h2>Mouse-Tracking-Python</h2>
+            <div class="ratimg">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+            </div>
+            <p>Revolutionize your interaction with computers using our Hand Mouse Tracking project. Empowering users with intuitive control, this innovative system seamlessly translates hand gestures into precise mouse movements, eliminating the need for traditional input devices. Leveraging computer vision techniques, our solution detects and tracks the user's hand in real-time, allowing for fluid and natural interaction with digital interfaces. With its robust functionality and user-friendly design, our project opens up new possibilities for accessibility, gaming, presentations, and more. Join us in shaping the future of human-computer interaction with Hand Mouse Tracking.</p>
+          </div>
+
+          <div class="project-item">  
+            <img src="./image/img/project Logo/encryption-removebg-preview 1.png" alt="" />
+            <h2> Image Encryption and Decryption</h2>
+            <div class="ratimg">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+            </div>
+            <p>Unlocking a new realm of security, our Python image encryption and decryption project epitomizes cutting-edge data protection. Leveraging advanced cryptographic techniques, we fortify sensitive images with impenetrable layers of defense. Seamlessly integrating encryption and decryption functionalities, our solution ensures that only authorized users can access confidential visual data. From safeguarding personal photos to securing critical business assets, our Python project empowers individuals and organizations alike to protect their digital footprint with confidence. Experience the pinnacle of image security with our Python image encryption and decryption project — where every pixel is safeguarded with the utmost precision and care.</p>
+          </div>
+
+          <div class="project-item">
+            <img src="./image/img/project Logo/python chatbot logo.png" alt="" />
+            <h2>Python ChatBot</h2>
+            <div class="ratimg">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+            </div>
+            <p>Empowering businesses with the pinnacle of AI technology, our Python chatbot redefines user engagement. Seamlessly fusing state-of-the-art natural language processing with robust backend algorithms, our solution sets the standard for conversational excellence. From revolutionizing customer support to driving unparalleled user satisfaction, our chatbot epitomizes innovation and efficiency. Experience the forefront of interaction technology with our Python chatbot — where every conversation is a testament to our commitment to excellence</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="/">
+        <div class="input-group" ng-model = "details">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" ng-model = "name" name="name" id="name" required/>
+            <input type="email" placeholder="Email"  ng-model = "email" name="email" id="email" required/>
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number" name="phone" id="phone" ng-model = "phone" required {0-9} maxlength="10"/>
+            <input type="text" placeholder="Subject" name = "subject" id = "subject" ng-model = "subject"/>
+          </div>
+        </div>
+        <div class="input-group-2" ng-model = "message">
+          <textarea name="message" id = "message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="your Message"
+            ng-model =  "msg"
+          ></textarea>
+          <button type="submit" value="send Message" name = "btn" class="btn" ng-click = send()>Send</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-gmail"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
+
+      <ul class="list">
+        <li class="li"><a href="#">FAQ</a></li>
+        <li class="li"><a href="#">Services</a></li>
+        <li class="li"><a href="#">About Me</a></li>
+        <li class="li"><a href="#">Contact</a></li>
+        <li class="li"><a href="#">Project</a></li>
+      </ul>
+      <div class="cp">
+        <p class="copyrights">
+          <i class="bx bxs-copyright"></i> I R CHRIS ROGEN
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
